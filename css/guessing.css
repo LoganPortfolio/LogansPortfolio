@@ -1,0 +1,65 @@
+    body {
+      background-image: url("../images/background.jpg");
+      z-index: 1;
+    }
+    #guessbutton {
+      background:#00FFBD;
+      border:2px solid black;
+      border-radius:4px;
+      font-size:20px;
+    }
+    #guessbutton:hover {
+      transform:scale(1.1);
+      cursor: pointer;
+    }
+    #guessbutton:active {
+      transform:translateY(5px);
+    }
+    .sitetext {
+      z-index: 2;
+      font-weight: bold;
+      color: #EEEEEE;
+      font-size: 62px;
+      font-family: Nunito;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+    }
+    .pagination {
+      display: inline-block;
+    }
+    .center {
+      text-align: center;
+      margin: 0;
+    }
+    .pagination a {
+      color: #9B9B9B;
+      float: left;
+      background-color: #00FFBD;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 2px solid #ddd;
+      margin: 0 2px;
+    }
+    .pagination a.active {
+      background-color: #01ADFF;
+      color: white;
+      border: 2px solid #01FDDD;
+    }
+    .pagination a:hover {
+      background-color: #01FDFF;
+    }
+    #guess {
+      border: 2px solid black;
+      border-radius: 4px;
+      padding: 3 5;
+      font-size: 16;
+    }
+    .guesstext {
+      font-size: 20px;
+    }
