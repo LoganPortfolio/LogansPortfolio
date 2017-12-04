@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+  <link rel="stylesheet" type="text/css" href="../css/guessing.css" />
+  <script src="../js/guessing.js"></script>
+  <meta charset="UTF-8">
+  <title>Guessing Game | LogLaughs Portfolio</title>
+  <link rel="icon" type="image/png" href="../images/favi.ico" />
+</head>
+<body>
+  <div class="center">
+  <div class="pagination">
+    <a href="../index.html">Home</a>
+    <a href="games.html" class="active">Simple Games</a>
+    <a href="../random/random.html">Random Creations</a>
+    <a href="../about/about.html">About</a>
+    <a href="../contact/contact.html">Contact</a>
+  </div>
+</div>
+  <br>
+  <br>
+  <div class="center">
+      <div class="pagination">
+        <a href="games.html">Games</a>
+        <a href="clicker.html">Clicking Game</a>
+        <a href="guessing.html" class="active">Guessing Game</a>
+      </div>
+    </div>
+  <br>
+  <br>
+  <center>
+    Hints:
+    <br>
+    1. I am small to my friends, but big to humans.
+    <br>
+    2. I was once apart of a small group, but was removed due to size.
+    <br>
+    3. I am very cold.
+    <br>
+    <span class="guesstext">Guess:</span> <input id="guess" type="text">
+    <button id="guessbutton" onclick="guess()">Guess</button>
+    <p id="out"></p>
+  </center>
+</body>
+</html>
