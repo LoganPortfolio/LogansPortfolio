@@ -1,1 +1,79 @@
-
+    body {
+      background-image: url("../images/background.jpg");
+      z-index: 1;
+    }
+.img {
+border: 2px solid blue;
+width: 500px;
+height: 500px;
+}
+.out {
+background: blue;
+color: #EEEEEE;
+border: 2px solid black;
+width: 30%;
+font-weight: bold;
+font-size: 32px;
+text-align: center;
+}
+.img:hover {
+transform: scale(1.1);
+cursor: pointer;
+}
+.img:active {
+transform: translateY(5px);
+}
+button {
+background: blue;
+color: #EEEEEE;
+border: 2px solid black;
+font-weight: bold;
+font-size: 30px;
+padding: 5px 10px;
+}
+button:hover {
+transform: scale(1.1);
+cursor: pointer;
+}
+button:active {
+transform: translateY(5px);
+}
+    .sitetext {
+      z-index: 2;
+      font-weight: bold;
+      color: #EEEEEE;
+      font-size: 62px;
+      font-family: Nunito;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+    }
+    .pagination {
+      display: inline-block;
+    }
+    .center {
+      text-align: center;
+      margin: 0;
+    }
+    .pagination a {
+      color: #9B9B9B;
+      float: left;
+      background-color: #00FFBD;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 2px solid #ddd;
+      margin: 0 2px;
+    }
+    .pagination a.active {
+      background-color: #01ADFF;
+      color: white;
+      border: 2px solid #01FDDD;
+    }
+    .pagination a:hover {
+      background-color: #01FDFF;
+    }
